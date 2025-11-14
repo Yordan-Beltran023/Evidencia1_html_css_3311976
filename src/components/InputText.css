@@ -1,0 +1,30 @@
+/* solo se puede poner aqui */
+    /* sintaxis css*/
+    /* estilos para input text*/
+    /* selecetor de etiqueta*/
+    /* estilos aplicables a toda etiqueta*/
+    /* señalada por el selector*/
+    input{
+        display:block;
+        background-color: rgb(255, 255, 255);
+        color: rgb(10, 10, 10);
+        /* bordes:
+        - Color
+        - Peso (grosor)
+        - estilo (tipo de linea)*/
+        border-color: rgb(0, 255, 234);
+        border width: 5px;
+        border style: solid;
+        border-radius: 5px;
+        margin-left: 20px;
+        margin-right: ;
+        width: 90%;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+    }
+    label{
+        display: block;
+        margin: 40px 0px 10px 20px;
+        
+    }

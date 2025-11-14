@@ -1,0 +1,36 @@
+---
+// Definimos las propiedades 
+// que puede recibir el componente
+    interface Props {
+       etiqueta: string;
+    }
+    //crear una variable
+    //para recibir la etiqueta
+    //Astro.props=los valores desde
+    //            el control         
+    const  etiqueta  = Astro.props.etiqueta;
+--- 
+<button class="boton-envio">
+    {etiqueta}
+</button>
+<style>
+    /* estilos de clase*/
+    /* se aplican a los elementos */
+    /* que tengan el atributo class*/
+    /* con el mismo nombre de clase*/
+    .boton-envio{
+        margin-left: 150px;
+        margin-bottom: 8px;
+        background-color: #700b0b;
+        color: #fff;
+        width: 100px;
+        height: 40px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        
+
+
+    }
+</style>

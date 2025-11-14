@@ -1,0 +1,21 @@
+.form{
+        display:block;
+        background-color: lightgray;
+        width: 400px;
+        border: 2px solid black;
+        margin: 20px auto;
+        border-radius: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+    .titulo{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: beige;
+        text-align: center;
+        color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        margin-bottom: 50px;
+        
+
+}

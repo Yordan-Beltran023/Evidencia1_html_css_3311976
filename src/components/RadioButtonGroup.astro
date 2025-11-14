@@ -1,0 +1,67 @@
+---
+// Definimos las propiedades 
+// que puede recibir el componente
+    interface Props {
+        etiqueta: string;
+    }
+    //crear una variable
+    //para recibir la etiqueta
+    //Astro.props=los valores desde
+    //            el control         
+    const  etiqueta  = Astro.props.etiqueta;
+--- 
+<div class="rgb">
+
+    <div id="cedula">
+    <input class="radio-btn"
+            type="radio"
+            name="rgb"
+            id="radio1"
+        /> 
+        <strong> CC </strong>
+    </div>
+    <div id="tarjeta">
+        <input class="radio-btn"
+            type="radio"
+            name="rgb"
+            id="radio2"
+        />
+            <strong> TI </strong>
+
+    </div>
+    <div id="extranjeria">
+        <input class="radio-btn"
+        type="radio"
+        name="rgb"
+        id="radio2"
+        />
+            <strong> CE </strong>
+    </div>
+<style>
+    .rgb{
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(112, 0, 0);
+        border width: 1px;
+        border style: solid;
+        border-radius: 5px;
+        margin: 40px 0px 10px 20px;
+        width: 90%;
+    }
+    #cedula .radio-btn{
+        display: inline;
+        height: 10px;
+        width: 10px;
+    }
+    #tarjeta .radio-btn{
+        display: inline;
+        height: 10px;
+        width: 10px;
+    }
+    #extranjeria .radio-btn{
+        display: inline;
+        height: 10px;
+        width: 10px;
+        
+        
+    }
+</style>
