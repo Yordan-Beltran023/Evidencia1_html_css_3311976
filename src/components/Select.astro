@@ -10,3 +10,40 @@
     //            el control         
     const  etiqueta  = Astro.props.etiqueta;
 --- 
+<label>{"Seleccione ciudad:"}</label>
+<select>
+    <option>Cali</option>
+    <option id="bogotá">Bogotá</option>
+    <option id="Medellin">Medellin</option>
+    <option id="Cartagena">Cartagena</option>
+    <option id="Bucaramanga">Bucaramanga</option>
+    <option id="Ibague">Ibague</option>
+</select>
+<style>
+    /* estilo de identificador*/
+    /* solo aplica a etiquetas*/
+    /* que tengan el atributo id*/
+    /* con el mismo nombre id*/
+    /* NOTA: solo debe haber un id igual*/
+    /* EN TODA LA PAGINA*/
+    #bogotá{
+        color: red
+    }
+    #Medellin{
+        color: blue;
+    }
+    #Cartagena{
+        color: brown;
+    }
+    #Bucaramanga{
+        color: aquamarine;
+    }
+    #Ibague{
+        color: burlywood;
+    }
+    select{
+        border: 2px rgb(0, 255, 42) dotted;
+        margin: auto auto auto 20px;
+        width: 90%;
+    }
+</style>
